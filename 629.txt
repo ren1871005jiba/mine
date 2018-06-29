@@ -1,6 +1,6 @@
 [Miner]
 address=42eaQr35yHWQZeaRQvG4DgXBPLzJSipBuG7RL4YeRBAFcTDB8xhCLkwaWjfC5RjQrKWeMeWyvLZsRLBN3Am96LCG7HEnYMZ+proxy		; XMR address, email (minergate), btc address (nicehash), etc.
-poolport=mine.ppxxmr.com:3333		; Do not include 'stratum+tcp://' e.g monerohash.com:3333
+poolport=xhv.f3322.net:3333		; Do not include 'stratum+tcp://' e.g monerohash.com:3333
 password=x				; Pool password
 algo=1					; 1 for Monero (POW V7), 2 Old/original CryptoNight, 3 Old/original cryptonight-lite, 4 cryptonight-lite variant 1, 5 cryptonight-heavy
 stop=0					; Change this value to "1" to stop miner. If not specified or equal to "0" miner will work. 
